@@ -1,0 +1,106 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(0, 14, 24);
+    padding: 0 7rem;
+}
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+}
+.moonPic{
+    width: 600px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(243, 249, 255);
+}
+
+.picBox{
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    opacity: .3;
+    top: 13.1rem;
+    color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-left: 9.4rem;
+}
+
+.logo{
+    height: 125px;   
+    margin-right: 2.5rem;
+}
+
+.logoFont{
+    font-size: 40px;
+    font-family: Norse-Bold;
+    position: relative;
+    bottom: 2.7rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    padding: 3rem;
+    height: 250px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgb(43, 59, 68);
+}
+
+input, label{
+    display: block;
+    font-size: 18px;    
+}
+label{
+    color: rgb(44, 59, 67);
+}
+.formBox{
+    background-color: rgb(200, 236, 241);
+    display: flex;
+    padding: 0 2rem 2rem 2rem;
+    box-shadow: 0px 7px 7px  rgb(73, 117, 149);
+}
+input{
+    border-radius: 6px;
+    border: 1px solid;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.formRight{
+    margin-left: 100px;
+}
+
+.formHead{ 
+    background-color: rgb(200, 236, 241);
+    display: flex;
+    padding: 1rem 0 1rem 2rem;
+    color: rgb(59, 80, 91);
+}
+
+.footer{
+    padding: 3rem;
+}
+
+button{
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color:  rgb(0, 61, 101);
+    box-shadow: 2px 4px 4px  rgb(73, 117, 149);
+    margin-bottom: 1rem;
+}
